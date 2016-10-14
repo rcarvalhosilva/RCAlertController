@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		1A1FE537AB61B24521969262 /* Pods_RCAlertController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC654222D3BFABD2BFA3F6F /* Pods_RCAlertController_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9DD8A15267420C6AC35F2CEF /* Pods_RCAlertController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC02C985CDCEDD18142A565 /* Pods_RCAlertController_Tests.framework */; };
+		AEDAF9891DAB156E002A5F51 /* ExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDAF9881DAB156E002A5F51 /* ExampleController.swift */; };
+		AEDAF98B1DABC85D002A5F51 /* TotallyCustomAppearence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDAF98A1DABC85D002A5F51 /* TotallyCustomAppearence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +34,6 @@
 		607FACD01AFB9204008FA782 /* RCAlertController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCAlertController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -44,6 +44,8 @@
 		71E5D1DF540743589321CB29 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ADC02C985CDCEDD18142A565 /* Pods_RCAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC654222D3BFABD2BFA3F6F /* Pods_RCAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCAlertController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEDAF9881DAB156E002A5F51 /* ExampleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleController.swift; sourceTree = "<group>"; };
+		AEDAF98A1DABC85D002A5F51 /* TotallyCustomAppearence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotallyCustomAppearence.swift; sourceTree = "<group>"; };
 		AFBEB963BE38A295B867BAF7 /* Pods-RCAlertController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCAlertController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCAlertController_Example/Pods-RCAlertController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D3C2CE0EC7F3DE25436A190D /* Pods-RCAlertController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCAlertController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCAlertController_Example/Pods-RCAlertController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E3772649F36FA0FCF65D3697 /* RCAlertController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RCAlertController.podspec; path = ../RCAlertController.podspec; sourceTree = "<group>"; };
@@ -94,11 +96,12 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				AEDAF9881DAB156E002A5F51 /* ExampleController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				AEDAF98A1DABC85D002A5F51 /* TotallyCustomAppearence.swift */,
 			);
 			name = "Example for RCAlertController";
 			path = RCAlertController;
@@ -215,6 +218,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 44LBCYJ83J;
 						LastSwiftMigration = 0800;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -361,8 +365,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				AEDAF9891DAB156E002A5F51 /* ExampleController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				AEDAF98B1DABC85D002A5F51 /* TotallyCustomAppearence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +502,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 44LBCYJ83J;
 				INFOPLIST_FILE = RCAlertController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -512,6 +518,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 44LBCYJ83J;
 				INFOPLIST_FILE = RCAlertController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

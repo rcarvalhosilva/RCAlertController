@@ -1,9 +1,9 @@
 {
   "name": "RCAlertController",
   "version": "0.1.0",
-  "summary": "A short description of RCAlertController.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/RCAlertController",
+  "summary": "A custom alert controller for iOS9+ applications.",
+  "description": "A custom alert controller for iOS9+ applications. Highly customizible with simple API similar to Apple's UIAlertController. With an easy and powerful customization mechanism you can create beautiful alerts that fits into your app design. You can customize almost everything and even insert a custom view made by you for the alert.",
+  "homepage": "https://github.com/rcarvalhosilva/RCAlertController",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,13 @@
     "Rodrigo Carvalho": "rcarvalho.dev@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/RCAlertController.git",
+    "git": "https://github.com/rcarvalhosilva/RCAlertController.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/rcarvalho_94",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "RCAlertController/Classes/**/*"
+  "source_files": "RCAlertController/Classes/**/*",
+  "frameworks": "UIKit"
 }

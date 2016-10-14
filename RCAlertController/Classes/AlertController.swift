@@ -218,7 +218,7 @@ public class AlertController: UIViewController, AlertViewDelegate {
 	/// this limit has been reached will be discarted.
 	///
 	/// - parameter actions: An array of actions to be added to the alert view
-	public func addActions(actions: [AlertAction]) {
+	public func addActions(_ actions: [AlertAction]) {
 		for action in actions {
 			addAction(action: action)
 		}
