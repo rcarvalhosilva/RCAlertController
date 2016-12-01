@@ -10,7 +10,7 @@ DESC
   s.homepage         = 'https://github.com/rcarvalhosilva/RCAlertController'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Rodrigo Carvalho' => 'rcarvalho.dev@gmail.com' }
-  s.source           = { :git => 'https://github.com/rcarvalhosilva/RCAlertController.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/rcarvalhosilva/RCAlertController.git', :tag => '0.1.1'}
   s.social_media_url = 'https://twitter.com/rcarvalho_94'
 
   s.ios.deployment_target = '9.0'
