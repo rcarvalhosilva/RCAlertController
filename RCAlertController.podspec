@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RCAlertController'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A custom alert controller for iOS9+ applications.'
 
   s.description      = <<-DESC
