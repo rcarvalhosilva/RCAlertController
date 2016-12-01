@@ -430,6 +430,7 @@ fileprivate class AlertView: UIView {
 		actionButton.setTitleColor(appearance.buttonsTextColor, for: .normal)
 		actionButton.titleLabel?.font = appearance.buttonsFont
 		actionButton.layer.cornerRadius = appearance.buttonsCornerRadius
+		actionButton.titleLabel?.adjustsFontSizeToFitWidth = true
 
 		buttonsConteinerView.addArrangedSubview(actionButton)
 	}
